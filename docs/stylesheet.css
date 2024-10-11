@@ -124,11 +124,17 @@ header {
   padding-top: 80px;
   padding-bottom: 50px;
   color: #5f5d60;
+  h2 {
+    font-weight: normal;
+  }
+  h3 {
+    font-weight: normal;
+  }
 }
 
-.heading h2 {
+/* .heading h2 {
   font-weight: normal;
-}
+} */
 
 .lesson {
   float: left;
@@ -154,9 +160,9 @@ header {
   color: #b3aeb5;
 }
 
-.heading h3 {
+/* .heading h3 {
   font-weight: normal;
-}
+} */
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
@@ -177,16 +183,22 @@ header {
   box-shadow: none;
 }
 
-footer img {
+/* footer img {
   width: 125px;
-}
+} */
 
-footer p {
+/* footer p {
   color: #b3aeb5;
   font-size: 12px;
-}
+} */
 
 footer {
+  img {
+    width: 125px;
+  }p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
   padding-top: 30px;
   padding-bottom: 20px;
 }
